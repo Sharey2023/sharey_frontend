@@ -1,0 +1,142 @@
+.MyPage{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.Mypage_header{
+  width: 100%;
+  height: 75px;
+  background-color: #92BBF8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu{
+  width: 100px;
+  height: 75px;
+  position: relative;
+  top: 1px;
+  left: 7px;
+  flex: 1;
+}
+
+#menu_ba{
+  width: 70px;
+  height: 70px;
+  position: relative;
+}
+
+#menu_icon{
+  width: 60px;
+  height: 40px;
+  color: #545454;
+}
+
+.Mypage_title{
+  width: 100px;
+  height: 75px;
+  position: relative;
+  font-size: 35px;
+  font-weight: 800;
+  text-align: center;
+  flex: 1;
+  margin-top: 20px;
+  color: white;
+}
+
+.Mypage_search{
+  position: relative;
+  flex: 1;
+  
+}
+
+#my_sh{
+  width: 300px;
+  height: 45px;
+  border-radius: 30px;
+}
+
+#search_basic{
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  display: flex;
+}
+
+.search_icon{
+  width: 30px;
+  height: 30px;
+  position: absolute;
+}
+
+#menu_ba, #search_basic{
+  border: 0;
+  background-color: transparent  
+}
+
+.Mypage_profile{
+  width: 100%;
+  height: 400px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.my_photo{
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  border-radius: 50%;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.my_name{
+  font-size: 25px;
+  font-weight: bold;
+  position: relative;
+}
+
+.introduce{
+  margin: 10px;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.list{
+  text-align: center;
+}
+
+#post_list, #follower, #follow{
+  font-size: 20px;
+  display: inline-block;
+  background-color: transparent; 
+  width: 100px;
+  height: 50px;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom-color: lightgray;
+}
+
+#post_list{
+  margin-right: 150px;
+}
+
+#post_list:hover, #follower:hover, #follow:hover{
+  border-bottom-color: #488cf3;
+}
+
+#follow{
+  margin-left: 150px;
+}
+
+#underline2{
+  width: 100%;
+  margin: 0;
+  border-color: lightgray;
+}

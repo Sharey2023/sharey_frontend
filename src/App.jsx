@@ -6,6 +6,7 @@ import Inquiry from './Inquiry';
 import Login from './Login';
 import Signup from './Signup';
 import Modify from './Modify';
+import MyPage from './MyPage';
 
 
 //first commit test
@@ -19,7 +20,8 @@ function App() {
       {/* <Inquiry/> */}
       {/* <Login/> */}
       {/* <Signup/> */}
-      <Modify/>
+      {/* <Modify/> */}
+      <MyPage/>
     </div>
   );
 }
