@@ -1,0 +1,34 @@
+@font-face {
+    font-family: 'Anton';
+    src: url("./Anton-Regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'RussoOne';
+    src: url("./RussoOne-Regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'BebasNeue';
+    src: url("./BebasNeue-Regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'HannaPro';
+    src: url("./BMHANNAPro.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'HannaAir';
+    src: url("./BMHANNAAir.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Dohyeon';
+    src: url("./BMDOHYEON.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Yeonsung';
+    src: url("./BMYEONSUNG.woff") format("woff");
+}

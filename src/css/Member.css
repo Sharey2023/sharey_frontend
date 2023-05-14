@@ -1,0 +1,42 @@
+.member_list{
+  width: 100%;
+}
+
+.title_1{
+  font-size: 50px;
+  font-weight: 900;
+  line-height: 0.7em;
+  padding-top: 15px;
+}
+
+.title_2{
+  font-size: 15px;
+  font-weight: 700;
+  margin: 3px;
+}
+
+.member_title1{
+  width: 200px;
+  height: 20%;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.member_title2{
+  width: 300px;
+  padding: 25px 170px;
+  font-size: 30px;
+  font-weight: 400;
+  font-family: 'Dohyeon';
+  display: flex;
+}
+
+.member_box{
+  border: 1px solid black;
+  width: 1200px;
+  height: 480px;
+  text-align: center;
+  margin-left: 170px;
+  flex: 1;
+}

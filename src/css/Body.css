@@ -1,0 +1,81 @@
+h3{
+  font-size: 50px;
+  font-family: "HannaPro";
+}
+
+div.Body{
+  width: 1500px;
+  margin: auto;
+  text-align: center;
+}
+
+div[class*=place]{
+  border: 1px solid black;
+  margin: 30px;
+  height: 250px;
+  width: 350px;
+  padding: 40px;
+  line-height: 140px;
+  display: inline-block;
+}
+
+.side{
+  width: 90px;
+  height: 180px;
+  position: relative;
+  bottom: 100px;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#chat_click, #post_click{
+  width: 63px;
+  height: 70px;
+  display: flex;
+  align-items: 'center';
+  justify-content: center;
+  border: 2px solid lightgrey;
+  background-color: white;
+  color: #a9a9a9;
+  position: fixed;
+}
+
+#chat_click{ 
+  border-radius: 10px 10px 0px 0px; 
+  bottom: 100px;
+  right: 20px;
+
+}
+
+#post_click{
+  border-radius: 0px 0px 10px 10px;
+  bottom: 31px;
+  right: 20px;
+}
+
+
+.chat_add{
+  width: 40px;
+  height: 65px;
+  position: fixed;
+}
+
+.post_add{
+  width: 45px;
+  height: 65px;
+  position: fixed;
+}
+
+
+
+
+
+
+
+
+
+
+
+

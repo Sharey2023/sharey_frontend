@@ -1,0 +1,56 @@
+.signupPage {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.signuptitle {
+    font-family: 'HannaPro';
+    font-size: 30px;
+}
+
+.su_input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    width: 500px;
+
+}
+
+.su_input input {
+    width: 280px;
+    height: 40px;
+
+    padding-left: 10px;
+    margin: 8px;
+    border-width: 1px;
+    border-radius: 5px;
+}
+
+.btn_sub {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#signup_btn {
+    width:  290px;
+    height: 40px;
+
+    border-width: 1px;
+    border-radius: 5px;
+    margin-top: 20px;
+
+    background-color: #92BBF8;
+    color: white;
+
+    font-family: 'Hannaair';
+    font-size: 20px;
+}
