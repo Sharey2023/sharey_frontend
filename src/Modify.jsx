@@ -5,15 +5,19 @@ import React from 'react';
 export default function Modify(){
   return (
     <div className = "modifyPage">
-      <label>정보 수정</label>
-      <form>
-        <input type='text'/>
-        <button type="submit">중복 확인</button>
-        <input type='password'/>
-        <input type='date'/>
-        <input type='phone'/>
+      <div className='modify_title'>
+        정보 수정
+        </div>
+      <div className='modify_main'>
+      <form id='modify_main'>
+        <input type='text' placeholder='별명'/>
+        <input type='password' placeholder='비밀번호'/>
+        <input type='password' placeholder='비밀번호 확인'/>
+        <input type='text' placeholder='생년월일(ex.20001010)'/>
+        <input type='tel' placeholder='전화번호'/>
       </form>
-      <button type='submit'>수정하기</button>
+      </div>
+      <button type='submit' id='md_btn'>수정하기</button>
     </div>
   )
 }

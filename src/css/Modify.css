@@ -1,7 +1,36 @@
 .modifyPage{
   width: 100%;
   height: 100%;
-  white-space: pre-wrap;
+  white-space: pre-line;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
+.modify_title{
+  text-align: center;
+  font-size: 25px;
+  margin: 20px;
+  margin-top: 70px;
+}
 
+#modify_main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+}
+
+#modify_main input{
+  width: 280px;
+  height: 40px;
+  margin: 7px;
+  border-width: 1px;
+  border-radius: 5px;
+}
+
+#md_btn{
+  margin-top: 20px;
+}
