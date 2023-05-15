@@ -15,10 +15,12 @@ export default function Board(){
         </div>
         <div className='Mypage_title'>Sharey</div>
         <div className='Mypage_search'>
+          <form>
           <input type='text' id="my_sh"></input>
           <button type='button' id="search_basic">
                 <BiSearch className='search_icon'/>
           </button>
+          </form>
         </div>
         </div>
       <div className='Mypage_profile'>
@@ -34,6 +36,11 @@ export default function Board(){
         </div>
       </div>
       <hr id='underline2'></hr>
+      <div className='my_detail'>
+        <div className='my_post'></div>
+        <div className='my_post'></div>
+        <div className='my_post'></div>
+      </div>
     </div>
   )
 }
