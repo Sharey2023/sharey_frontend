@@ -47,15 +47,10 @@ h1{
   height: 100%;
 }
 
-form{
-  display: flex;
-  align-items: center;
-  margin: auto;
-  width: 100%;
-}
-
 .search{
   width: 100%;
+  position: relative;
+  flex: 1;
 }
 
 #search{
@@ -67,21 +62,19 @@ form{
   left: 50%;
   border: white;
   transform: translate(-50%, -50%);
-  flex-grow: 0.4;
 }
 
 #sh{
   width: 40px;
   height: 40px;
-  position: relative;
-  margin-left: 170px;
-  margin-bottom: 55px;
+  position: absolute;
+  display: flex;
 }
 
 .search_icon{
   width: 30px;
   height: 30px;
-  position: relative;
+  position: absolute;
   color: gray;
 }
 

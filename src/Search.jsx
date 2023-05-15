@@ -17,13 +17,13 @@ export default function Search(){
         </button>
       </div>
         <div className='search'>
-        <h1 className='app_name'>Sharey</h1>
-          <form id='fm'> 
-            <input type="text" id='search'  placeholder='여행지를 입력하세요'/>
-              <button type='button' id="sh">
-                <BiSearch className='search_icon'/>
-              </button>
-          </form>
+          <h1 className='app_name'>Sharey</h1>
+            <form>
+              <input type="text" id='search' placeholder='여행지를 입력하세요'/>
+                <button type='button' id="sh">
+                  <BiSearch className='search_icon'/>
+                </button>
+            </form>
         </div>
       </div>
   )

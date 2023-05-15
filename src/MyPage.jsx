@@ -18,7 +18,7 @@ export default function Board(){
           <form>
           <input type='text' id="my_sh"></input>
           <button type='button' id="search_basic">
-                <BiSearch className='search_icon'/>
+                <BiSearch className='sh_icon'/>
           </button>
           </form>
         </div>

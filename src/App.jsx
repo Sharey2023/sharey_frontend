@@ -13,15 +13,15 @@ import MyPage from './MyPage';
 function App() {
   return (
     <div className="App">   
-      {/* <Search/>
-      <Body/> */}
+      <Search/>
+      <Body/>
       {/* <Admin/> */}
       {/* <Member/> */}
       {/* <Inquiry/> */}
       {/* <Login/> */}
       {/* <Signup/> */}
       {/* <Modify/> */}
-      <MyPage/>
+      {/* <MyPage/> */}
     </div>
   );
 }

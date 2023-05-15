@@ -66,10 +66,11 @@
   margin-left: 260px;
 }
 
-.search_icon{
+.sh_icon{
   width: 30px;
   height: 30px;
   position: absolute;
+  color: gray;
 }
 
 #menu_ba, #search_basic{
