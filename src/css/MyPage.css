@@ -49,7 +49,6 @@
 .Mypage_search{
   position: relative;
   flex: 1;
-  
 }
 
 #my_sh{
@@ -63,6 +62,8 @@
   height: 35px;
   position: absolute;
   display: flex;
+  margin-top: 3px;
+  margin-left: 260px;
 }
 
 .search_icon{
@@ -139,4 +140,21 @@
   width: 100%;
   margin: 0;
   border-color: lightgray;
+}
+
+.my_detail{
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.my_post{
+  width: 28%;
+  height: 300px;
+  border: 1px solid black;
+  margin: 30px;
+  margin-top: 40px;
+  display: inline-block;
+  border-radius: 14px;
 }
